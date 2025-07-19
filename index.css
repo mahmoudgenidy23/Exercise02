@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.clearfix{
+    clearboth
+}
+body{}
+header{background-color: #3e3e3e;
+height: 100vh;
+border-top: 10px solid transparent; color: #fff;
+}
+
+header nav .container{
+    overflow: auto;
+    background-color: #f0f;
+    width: 80%;
+    margin: auto;
+}
+header nav .part1{
+    float: left;
+    width: 10%;
+}
+header nav .part1 img{
+    width: 100%;
+}
+header nav .part2{
+    float:right;
+    width: 10%;
+    background-color: #0f0;
+}
+header .content{
+    width: fit-content;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 180px;
+}
+header .content h1{
+    margin: 10px 0px;
+    font-size: 50px;
+}
+header .content p{
+    font-size: 25px;
+}
