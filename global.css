@@ -1,0 +1,23 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.clearfix{
+clear: both;
+}
+.container{
+    border-bottom: 1px solid #fff;
+    overflow: auto;
+    background-color: #f0f;
+    width: 80%;
+    margin: auto;
+}
+.float-right{
+    float:right;
+}
+.float-left{
+    float:left;
+}
+#About {
+    background-color:#aaa;
+}
+#About 
